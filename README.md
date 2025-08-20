@@ -68,6 +68,3 @@ study_mode_extension/
 ---
 
 
-
-
-MIT
