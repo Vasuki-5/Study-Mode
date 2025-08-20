@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Study Mode</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>YouTube Study Mode</h2>
+
+  <label class="switch">
+    <input type="checkbox" id="toggleStudy">
+    <span class="slider round"></span>
+  </label>
+  <span id="statusLabel">OFF</span>
+
+  <div id="timerSection">
+    <input type="number" id="minutesInput" value="30" min="1">
+    <button id="startBtn">Start Study</button>
+  </div>
+
+  <div id="activeTimer" style="display:none;">
+    Time Left: <span id="countdownText"></span>
+    <br>
+    <button id="restartBtn">Restart</button>
+    <button id="extendBtn">+10 min</button>
+    <button id="exitBtn">Exit</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

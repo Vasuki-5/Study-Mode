@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Study Mode",
+  "version": "1.0",
+  "description": "Removes distractions from YouTube and includes a timer-based study mode.",
+  "permissions": ["storage", "activeTab"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
