@@ -22,3 +22,9 @@ This Chrome extension removes distractions from YouTube so that you can focus wh
 
 ## 📁 Folder Structure
 
+study_mode_extension/
+├── manifest.json
+├── content.js
+├── popup.html
+├── popup.js
+└── styles.css
